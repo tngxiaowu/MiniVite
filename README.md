@@ -2,13 +2,13 @@
 一个迷你版的玩具Vite(用于研究原理用)
 
 ## 如何运行
-### 1. 创建项目+所需依赖
+### Step 1. 创建项目+所需依赖
 		vue vue create yourproject // 创建一个Vue项目
 		vue add vue-next // 增加Vue3依赖
 		npm i koa -d // 安装koa
 Tips: 需要Vue-cli 3(或者更高版本)已经安装。
 
-### 2. 放置到相关位置
+### Step 2. 放置到相关位置
 将文件放置到vue项目的src目录下(与assets/router等同级)，并且添加一个index.html文件。
 文件内容如下:
 
@@ -32,7 +32,7 @@ Tips: 需要Vue-cli 3(或者更高版本)已经安装。
 		import App from "./App.vue";
 		createApp(App).mount("#app");		
 
-### 3. 运行相关脚本
+### Step 3. 运行相关脚本
 
 		node ./Minivite/lib/server.js
 
