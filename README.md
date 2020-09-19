@@ -1,2 +1,2 @@
 # MiniVite
- 简单版的Vite
+ 一个迷你版的vite
